@@ -1,0 +1,42 @@
+input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 7px;
+}
+input[type=submit]{
+    width: 40%;
+    border-radius: 30px;
+    padding: 7px;
+    border-color: #ccf;
+    cursor: pointer;
+}
+td{
+    padding: 2px;
+    text-align: center;
+}
+img{
+    width: 80px;
+    height: 50px;
+    text-align: center;
+}
+div{
+    margin:20px;
+}
+.back{
+    background: #ccf;
+}
+.forms_1 tr{
+    border: none;
+}
+.forms_1 td{
+    border: none;
+}
+.forms_1 th{
+    border: none;
+}
+.forms_4{
+    width: 250px;
+}
+fieldset{
+    background: rgb(197, 197, 202);
+}

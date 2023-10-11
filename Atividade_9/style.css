@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("https://img.freepik.com/fotos-gratis/mulher-caucasiana-escrevendo-uma-carta_53876-47106.jpg"); /* Substitua 'sua-imagem.jpg' pelo caminho da sua imagem */
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow: hidden;
+}
+.conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.title{
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    height: 5vh;
+    width: 60vw;
+}
+.form{
+    background-color: rgba(128, 128, 128, 0.5);
+    height: 80vh;
+    width: 60vw;
+}
+.form {
+    text-align: left;
+}
+.textfiel {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 30px;
+}
+.text{
+    padding: 20px;
+}
+.text label {
+    font-weight: bold;
+    color: #fff;
+    margin-right:30px;
+    width: 10%;
+}
+
+.text input {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.textfiel label {
+    font-weight: bold;
+    color: #fff;
+    margin-right:30px;
+    width: 10%;
+}
+
+.textfiel input {
+    width: 90%;
+    border-radius: 9px;
+    padding: 10px;
+    border: none;
+}
+
+.textfiel select {
+    width: 90%;
+    border-radius: 9px;
+    padding: 10px;
+    border: none;
+}
+
+.textfiel .l {
+    width: 100%;
+    border-radius: 9px;
+    padding: 10px;
+    border: none;
+}
+.met{
+    width: 300px;
+    padding: 10px;
+    margin-right:10px;
+}
+.l label{
+    margin-left: 5px;
+}
+input[type="submit"] {
+    margin: 10px;
+    width: 150px;
+    padding: 10px;
+    border: none;
+    border-radius: 9px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+}

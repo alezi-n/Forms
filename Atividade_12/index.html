@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários_Atividade12</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="forms_1">
+        <h4>Formulário 1</h4>
+        <form action="">
+        <table width="600px" border="3">
+            <thead>
+                <tr><th colspan="2">Loan Application:</th></tr>
+            </thead>
+            <tbody>
+                <tr class="back"><th colspan="2">Applicant Information:</th></tr>
+                <tr>
+                    <td style="text-align: right; width: 130px;">First Name:</td>
+                    <td>
+                        <input type="text" name="name" id="name" placeholder="Type your name" minlength="5" maxlength="50" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: right;">Last Name:</td>
+                    <td>
+                        <input type="text" name="last_name" id="last_name" placeholder="Type your last name" minlength="3" maxlength="150" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: right;">Email:</td>
+                    <td>
+                        <input type="email" name="email" id="email" placeholder="Type your e-mail" maxlength="100" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: right;">Social Security#:</td>
+                    <td style="text-align: left;">
+                        <input type="number" name="security_socia" id="security_socia" placeholder="Enter your social security"
+                        style="width: 55%;" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: right;">Daytime Phone:</td>
+                    <td style="text-align: left;">
+                        <input type="tel" name="daytime_phone" id="evening_phone" placeholder="Phone number"
+                        style="width: 55%;" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: right;">Evening Phone:</td>
+                    <td style="text-align: left;">
+                        <input type="tel" name="evening_phone" id="evening_phone" placeholder="Phone number"
+                        style="width: 55%;" required>
+                    </td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr class="back"><th colspan="2">Loan Information:</th></tr>
+                <tr>
+                    <td style="text-align: right;">Loan Type:</td>
+                    <td style="text-align: left;">
+                        <select name="type_loan" id="type_loan" style="width: 40%;">
+                            <option value="#" selected disabled>Select</option>
+                            <option value="loan_personal">Personal Loan</option>
+                            <option value="loan_mortgage">Mortgage Loan</option>
+                            <option value="loan_auto">Auto Loan</option>
+                            <option value="loan_student">Student Loan</option>
+                            <option value="loan_business">Business Loan</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: right;">Loan Amount$:</td>
+                    <td style="text-align: left;">
+                        <input type="number" name="amount_loan" id="amount_loan" placeholder="Value"
+                        style="width: 40%;">
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: right;">Description:</td>
+                    <td style="text-align: left;">
+                        <textarea name="description" id="description" cols="45" rows="5"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: right;">Submit Application:</td>
+                    <td style="text-align: left;">
+                        <input type="submit" value="Apply For Loan">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+    </div>
+    <div class="forms_2">
+        <form action="">
+        <h4>Formulário 2</h4>
+        <table width="400px" border="3">
+            <thead>
+                <tr>
+                    <td colspan="4">Cadastro de Escolaridade: Formulario 2</td>
+                </tr>
+            </thead>
+            <tr >
+                <td>Nome:</td>
+                <td>
+                    <input type="text" name="nome" placeholder="Digite seu nome">
+                </td>
+            </tr>
+            <tr>
+                <td>Sexo:</td>
+                <td>
+                    <input style="width: 15%;" type="radio" name="dados" id="feminino">
+                    <label for="tipo_feminino">Feminino</label>
+                    <input style="width: 15%;" type="radio" name="dados" id="masculino">
+                    <label for="tipo_masculino">Masculino</label>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: left;" colspan="3">
+                    <label for="tipo_escolaridade">Escolaridade:</label>
+                    <select name="select" id="escola">
+                        <option value="" selected disabled>Selecione</option>
+                        <option value="primeiro">1º Grau</option>
+                        <option value="segundo">2º Grau</option>
+                        <option value="terceiro">3º Grau</option>
+                        <option value="superior">Superior</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+    </form>
+    </div>
+    <div class="forms_3">
+        <form action="">
+        <h4>Formulário 3</h4>
+        <table width="400px" border="3">
+            <thead>
+                <tr>
+                    <td colspan="3">Cadastro de Cartões: Formulario 3</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Numero:</td>
+                    <td>
+                        <input type="number" name="numero_cartao" placeholder="Nº Cartão" minlength="16" maxlength="16">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Bandeira:</td>
+                    <td>
+                        <input style="width: 15%;" type="radio" name="card" id="card">
+                        <img src="https://financas-web.club/wp-content/uploads/2021/12/1-1.jpg" alt=""><br>
+                        <input style="width: 15%;" type="radio" name="card" id="card">
+                        <img src="https://emalta.com.br/wp-content/uploads/2016/08/MasterCard-vale-a-pena.jpg" alt=""><br>
+                        <input style="width: 15%;" type="radio" name="card" id="card">
+                        <img src="https://tiinside.com.br/wp-content/uploads/2022/03/American-Express-Amex.jpg" alt="">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="validade">Validade:</label>
+                    </td>
+                    <td>
+                        <select name="select" id="validade">
+                            <option value="" selected disabled>Selecione</option>
+                            <option value="2023">2023</option>
+                            <option value="2024">2024</option>
+                            <option value="2025">2025</option>
+                            <option value="2026">2026</option>
+                        </select>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+    </div>
+    <div class="forms_4">
+        <h4>Formulário 4</h4>
+        <form action="">
+            <fieldset>
+                <legend><b>Informações do Aquário</b></legend><br>
+                <label for="tipo-ph">PH do Aquário:</label><br>
+                <input type="radio" name="ph" id="ph_acido" style="width: 20px; margin: 10px 0 0 5px;">
+                <label for="tipo_alcalino">Ácido</label>
+                <input type="radio" name="ph" id="ph_alcalino" style="width: 20px; margin-top: 10px;">
+                <label for="tipo_acido">Alcalino</label><br>
+                <fieldset style="margin: 10px 0px 10px 0px;">
+                    <legend>Peixes</legend><br>
+                    <label for="qtd">Quantidade:</label>
+                    <input type="number" name="qtd_peixe" id="qtd_peixe" style="width: 50px;" max="20"><br>
+                    <label for="especie">Espécie:</label>
+                    <select name="especies" id="especies" style="width: 90px; margin: 20px 0 0 5px;">
+                        <option value="#" selected disabled>Selecione</option>
+                        <option value="espada">Espada</option>
+                        <option value="molinésia">Molinésia</option>
+                        <option value="plati">Plati</option>
+                    </select>
+                </fieldset>
+                <label for="outros">Outros:</label><br>
+                <input type="checkbox" name="pedras" id="pedras" style="width: 20px; margin: 10px 0 0 5px;">
+                <label for="tp_pedra">Pedras</label>
+                <input type="checkbox" name="plantas" id="plantas" style="width: 20px; margin: 10px 0 0 5px;">
+                <label for="tp_plantas">Plantas</label>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>

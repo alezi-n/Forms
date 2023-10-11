@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+}
+
+.conteiner{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 75%;
+}
+
+.title{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    align-items: center;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: var(--title-color);
+}
+
+.form{
+    display: flex;
+    width: 100%;
+    height: 200px;
+    flex-direction: row;
+    margin-left: 20px;
+}
+
+.part{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 250px;
+}
+.part_date{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 30%;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+
+.select{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    margin: 0 0 24px 0;
+}
+
+.data{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+}
+.data input{
+    width: 100%;
+    height: 90%;
+    margin-right: 12px;
+}
+.data label{
+    width: 30%;
+    height: 100%;
+}
+.part_date .select{
+    justify-content: center;
+}
+.part_date .select select{
+    width: 40%;
+    height: 90%;
+}
+.part_date .select label{
+    width: 20%;
+    height: 90%;
+}
+
+.select select{
+    width: 100%;
+    height: 90%;
+    margin-left: 5px;
+    margin-right: 20px;
+}
+.select label{
+    width: 30%;
+    height: 100%;
+}
+
+.select .label_m{
+    width: 40%;
+    height: 100%;
+}
+
+.submit{
+    display: flex;
+    width: 70%;
+    height: 60px;
+    justify-content: center;
+}
+
+input[type="submit"]{
+    border-radius: 20px;
+    width: 120px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    background: var(--btn-color);
+}
+
+:root{
+    --title-color:#f18080;
+    --btn-color:#e67e22;
+}
