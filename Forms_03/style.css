@@ -14,6 +14,7 @@ body{
     flex-direction: column;
     height: 100%;
     width: 75%;
+    margin-left: 32px;
 }
 
 .title{
@@ -21,7 +22,6 @@ body{
     width: 100%;
     height: 40px;
     align-items: center;
-    margin-left: 20px;
     margin-bottom: 20px;
     margin-top: 20px;
     color: var(--title-color);
@@ -32,7 +32,6 @@ body{
     width: 100%;
     height: 200px;
     flex-direction: row;
-    margin-left: 20px;
 }
 
 .part{
@@ -41,15 +40,21 @@ body{
     height: 100%;
     width: 250px;
 }
+.part2{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 300px;
+}
+
 .part_date{
     display: flex;
     flex-direction: column;
     height: 100%;
-    width: 30%;
+    width: 500px;
     align-items: center;
     box-sizing: border-box;
 }
-
 
 .select{
     display: flex;
@@ -86,7 +91,7 @@ body{
 }
 
 .select select{
-    width: 100%;
+    width: 60%;
     height: 90%;
     margin-left: 5px;
     margin-right: 20px;
@@ -103,7 +108,7 @@ body{
 
 .submit{
     display: flex;
-    width: 70%;
+    width: 75%;
     height: 60px;
     justify-content: center;
 }
@@ -120,7 +125,63 @@ input[type="submit"]{
     background: var(--btn-color);
 }
 
+.btn_table{
+    display: flex;
+    width: 70%;
+    height: 60px;
+    margin-bottom: 12px;
+}
+
+.btn_table input{
+    border-radius: 20px;
+    width: 120px;
+    height: 40px;
+    margin-right: 12px;
+    border: none;
+    cursor: pointer;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    background: var(--btn-color);
+}
+
+.btn_table .btn_maior{
+    width: 160px;
+}
+
+.table{
+    width: 80%;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+thead tr{
+    background: #808080;
+}
+thead th{
+    color: white;
+    width: 100px;
+    padding: 12px;
+    border: 2px solid #dddddd;
+}
+
+tbody td{
+    width: 100px;
+    padding: 12px;
+    text-align: center;
+    border: 2px solid #dddddd;
+}
 :root{
     --title-color:#f18080;
     --btn-color:#e67e22;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #ffffff; 
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
 }
